@@ -36,7 +36,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 		model.put("preading", preading);
 		model.put("units", units);
 		model.put("totalbill", totalbill);
-		
+		System.out.println("");
 		return "result";
 		}
 	
